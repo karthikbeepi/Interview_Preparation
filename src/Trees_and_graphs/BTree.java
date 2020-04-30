@@ -11,6 +11,21 @@ public class BTree {
 		root = new BTreeNode(val);
 		
 	}
+	
+	public BTree(int[] arr) {
+		root = makeTree(arr, 0, arr.length-1);
+	}
+
+	private BTreeNode makeTree(int[] arr, int low, int high) {
+		
+		if(low>high)
+			return null;
+		int mid = (low+high)/2;
+		BTreeNode node = new BTreeNode(arr[mid]);
+		node.left = makeTree(arr, low, mid-1);
+		node.right = makeTree(arr, mid+1, high);
+		return node;
+	}
 
 	public void add(int val) {
 		
@@ -72,5 +87,9 @@ public class BTree {
 		obj.add(1);
 		obj.print();
 		obj.printDFS(obj.root);
+		
+		System.out.println();
+		BTree ob2 = new BTree(new int [] {1, 2, 3, 4, 5, 6, 7, 8, 9} );
+		ob2.print();
 	}
 }

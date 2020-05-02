@@ -4,7 +4,7 @@ public class TripleStepDriver {
 
 	public static void main(String[] args) {
 
-		int steps = 36;
+		int steps = 4;
 		Runnable ob1 = new TripleStepRecursion(steps);
 		Runnable ob2 = new TripleStepDP(steps);
 		

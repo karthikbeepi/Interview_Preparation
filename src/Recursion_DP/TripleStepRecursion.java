@@ -12,7 +12,13 @@ public class TripleStepRecursion implements Runnable{
 			return 0;
 		if(noOfSteps==0)
 			return 1;
-		return tripleStep(noOfSteps-1)+tripleStep(noOfSteps-2)+tripleStep(noOfSteps-3);
+		int sum =0;
+		for(int i=1; i<noOfSteps+1; i++) {
+			sum += tripleStep(noOfSteps-i);
+//			System.out.print(i+"\t");
+		}
+			
+		return sum;
 	}
 	
 	@Override

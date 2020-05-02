@@ -33,12 +33,17 @@ public class TripleStepDP implements Runnable{
 		if(noOfSteps==0)
 			return 1;
 		int totalCombo = 0;
-		if(noOfSteps-1>=0)
-			totalCombo+= memoization.get(noOfSteps-1);
-		if(noOfSteps-2>=0)
-			totalCombo+= memoization.get(noOfSteps-2);
-		if(noOfSteps-3>=0)
-			totalCombo+= memoization.get(noOfSteps-3);
+//		if(noOfSteps-1>=0)
+//			totalCombo+= memoization.get(noOfSteps-1);
+//		if(noOfSteps-2>=0)
+//			totalCombo+= memoization.get(noOfSteps-2);
+//		if(noOfSteps-3>=0)
+//			totalCombo+= memoization.get(noOfSteps-3);
+		for(int i=1; i<noOfSteps+1; i++)
+		{
+			if(noOfSteps-i>=0)
+				totalCombo+= memoization.get(noOfSteps-i);
+		}
 		return totalCombo;
 		
 	}

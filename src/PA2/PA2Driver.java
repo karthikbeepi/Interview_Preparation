@@ -24,6 +24,7 @@ public class PA2Driver {
 				String[] temp = br.readLine().split(" ");
 				cost.put(Integer.parseInt(temp[0]), Integer.parseInt(temp[1]));
 			}
+			br.close();
 		} catch (IOException e) {
 			e.printStackTrace();
 		}

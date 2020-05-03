@@ -42,7 +42,7 @@ public class PizzaProblem {
 		int high = pizza.size()-1;
 		int closestPizza = -1;
 		
-		while(low<high) {
+		while(low<=high) {
 			int mid = (low+high)/2;
 			if(pizza.get(mid)==coins)
 				return coins;
@@ -63,9 +63,8 @@ public class PizzaProblem {
 		
 		low = 0;
 		high = diffTopping.size()-1;
-		int closestTopping = -1;
-		
-		for(int i=0; i<=high; i++)
+		int closestTopping = Math.abs(closestPizza+diffTopping.get(0));
+		for(int i=1; i<=high; i++)
 			if(Math.abs(closestPizza+diffTopping.get(i)-coins)<Math.abs(closestTopping-coins))
 			{
 				closestTopping = closestPizza+diffTopping.get(i);

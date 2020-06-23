@@ -1,0 +1,13 @@
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\obj\Debug\netcoreapp3.1\HackerrankInterviewPrep.AssemblyInfoInputs.cache
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\obj\Debug\netcoreapp3.1\HackerrankInterviewPrep.AssemblyInfo.cs
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\obj\Debug\netcoreapp3.1\HackerrankInterviewPrep.csproj.CoreCompileInputs.cache
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\bin\Debug\netcoreapp3.1\HackerrankInterviewPrep.exe
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\bin\Debug\netcoreapp3.1\HackerrankInterviewPrep.deps.json
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\bin\Debug\netcoreapp3.1\HackerrankInterviewPrep.runtimeconfig.json
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\bin\Debug\netcoreapp3.1\HackerrankInterviewPrep.runtimeconfig.dev.json
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\bin\Debug\netcoreapp3.1\HackerrankInterviewPrep.dll
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\bin\Debug\netcoreapp3.1\HackerrankInterviewPrep.pdb
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\obj\Debug\netcoreapp3.1\HackerrankInterviewPrep.dll
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\obj\Debug\netcoreapp3.1\HackerrankInterviewPrep.pdb
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\obj\Debug\netcoreapp3.1\HackerrankInterviewPrep.genruntimeconfig.cache
+C:\Users\karth\Documents\GitHub\Interview_Preparation\.vscode\Hackerrank\obj\Debug\netcoreapp3.1\HackerrankInterviewPrep.csprojAssemblyReference.cache

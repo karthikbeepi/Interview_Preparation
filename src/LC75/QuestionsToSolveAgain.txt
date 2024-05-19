@@ -2,3 +2,11 @@ Questions to solve again:
 
 - https://leetcode.com/problems/non-overlapping-intervals/ 
     - Remember you can solve this problem greedily. 
+
+- https://leetcode.com/problems/word-break/description/
+    - Remember you can use DP for this. Also, remember that you can choose
+        everytime when you make a decision.
+
+- https://leetcode.com/problems/kth-smallest-element-in-a-bst/description/
+    - Remember you also need to understand what happens when you return from 
+    a recursive function so that you quit early.
